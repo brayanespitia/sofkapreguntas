@@ -22,7 +22,7 @@ public class PreguntaEntity {
 
     @ManyToOne
     @JoinColumn(name = "categoria_id")
-    //private CategoriaEntity id_categoria;
+    private CategoriaEntity id_categoria;
 
 
 
