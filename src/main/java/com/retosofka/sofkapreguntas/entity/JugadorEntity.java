@@ -1,4 +1,4 @@
-package com.retosofka.sofkapreguntas.entiry;
+package com.retosofka.sofkapreguntas.entity;
 
 
 import lombok.Data;
@@ -9,7 +9,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 @Data
 @Entity
-public class Jugador {
+public class JugadorEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
